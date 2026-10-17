@@ -1,0 +1,12 @@
+gradio[oauth]>=5.25.2
+requests
+pandas
+python-dotenv
+smolagents[toolkit]>=1.16.0
+huggingface_hub
+openpyxl
+pillow
+wikipedia
+wikipedia-api
+duckduckgo-search
+youtube-transcript-api

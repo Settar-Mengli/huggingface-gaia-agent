@@ -1,0 +1,55 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secrets*
+
+# Local HF Space staging packages
+_deploy_stage*/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Local eval / caches / downloads / regression artifacts
+downloads/
+attachments/
+gaia_answers_cache.json
+*answers_cache*
+local_eval_answers.json
+local_eval_regress3_answers.json
+local_eval*_answers.json
+local_eval*.json
+*_eval_answers.json
+questions_sample.json
+*.log
+
+# Benchmark / dataset dumps (never commit)
+**/gaia-benchmark/**
+**/GAIA/**
+metadata.jsonl
+*level1*.parquet
+*Final*answer*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
